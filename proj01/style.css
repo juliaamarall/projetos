@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+:root{
+
+    --font01: 'Josefin Sans', sans-serif;
+    --font02:Arial, Helvetica, sans-serif;
+
+    --cor01:#34629E;
+    --cor02:#1f3b5e;
+    --cor03:#498ADE;
+    --cor04:#4D92EB;
+    --cor05:#417AC4;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-image: linear-gradient(to left, var(--cor02), var(--cor04));
+   
+}
+        /* configurando o header */
+
+header{
+    background-color: #34629E;
+    padding: 30px 0px 5px 40px;
+    
+}
+
+header>p{
+    font-family: var(--font01);
+    font-style: normal;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+nav{
+    font-size: 15px;
+    padding-top:19px;
+    margin-bottom: 0px;
+    font-family: var(--font02);
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+    
+}
+
+nav>a:hover{
+    color: #4D92EB;
+    background-color: #071a33;
+    border-radius: 15px;
+    transition: 0.6s;
+    padding: 1px 2px 1px 2px;
+    text-decoration: underline;
+}
+
+        /* configurando a primeira section */
+
+article{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left:25px;
+    margin-top: 25px;
+
+}
+
+article>h2{
+    font-size: 35px;
+    font-family: var(--font01);
+    font-weight: bolder;
+}
+
+article> p{
+    font-family: var(--font02);
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+    section{
+        padding-left: 0px;
+        margin-top: 15px;
+        margin-left: -30px;
+        background-attachment: fixed
+    }
+
+    section>p{
+        width: 50vh;
+        margin-left: 10px;
+        background-color:#417ac496;
+        padding: 10px 10px 10px 10px;
+        border-radius: 10px;
+        font-family: var(--font02);
+    }
+
+
+
+#img1{
+    padding: 10vh;
+    background-image: url(img/pexels-cottonbro-studio-4709289.jpg);
+    background-position: right top;
+    background-size: cover;
+}
+
+#img2{
+    background-image: url(img/pexels-john-guccione-wwwadvergroupcom-3483098.jpg);
+    padding: 10vh;
+    background-position: right top;
+    background-size: cover;
+}
+
+#img3{
+    background-image: url(img/pexels-cedric-fauntleroy-4270365.jpg);
+    padding: 18vh;
+    background-position: right center;
+    background-size: cover;
+}
+
+#img4{
+    background-image: url(img/pexels-gustavo-fring-4148921.jpg);
+    padding: 15vh;
+    background-position: right top;
+    background-size: cover;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+
+ 
+  
+    
